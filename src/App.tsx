@@ -54,7 +54,7 @@ function App() {
 
     try {
       const result = await fetch(
-        `http://www.omdbapi.com/?i=tt3896198&apikey=b84cbdb6&s=${e.target.value}`
+        `https://www.omdbapi.com/?i=tt3896198&apikey=b84cbdb6&s=${e.target.value}`
       );
       const { Response, Search, Error } = await result.json();
 
