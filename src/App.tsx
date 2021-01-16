@@ -8,7 +8,7 @@ import NominationItem from "./components/NominationItem";
 import MovieItem from "./components/Movieitem";
 import { Movie } from './types/Movie';
 
-import "./App.css";
+import "./styles/style.css";
 
 enum MainAreaState {
   FRESH = 'FRESH',
@@ -116,7 +116,7 @@ function App() {
   };
 
   return (
-    <div style={{ fontFamily: "Inter" }} className="dark:bg-black min-h-screen flex flex-col">
+    <div className="dark:bg-black min-h-screen flex flex-col">
       <div className="sticky top-0 z-10">
         <header
           className="p-2 px-2 sm:px-10 "
